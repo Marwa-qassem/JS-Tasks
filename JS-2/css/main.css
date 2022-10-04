@@ -1,0 +1,15 @@
+h1{
+    font-family: Impact;
+}
+
+p{
+    font-size: 2rem;
+}
+button{
+    padding: 25px 80px;
+    color: #fff;
+    background-color: blue;
+}
+button:hover{
+    background-color: green;
+}
