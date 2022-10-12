@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #23343e;
+    font-family: 'Titillium Web', sans-serif;
+    height: 75vh;
+}
+.box, .navbar{
+    background-color: #23343e;
+    box-shadow:  -5px 2px 50px -9px rgba(0, 0, 0, 1);
+}
+.box{
+    width: 60%;
+}
+h1{ 
+    color: #17a2b8;
+}
+input{
+    background-color:  transparent !important;
+    color: #fff !important;
+}
+
+.navbar .btn{
+    color: rgb(138 154 159);
+}
