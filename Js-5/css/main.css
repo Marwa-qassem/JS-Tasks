@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e202b;
+    font-family: "Roboto", sans-serif;
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.nav-link{
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 400;
+    padding: 5px 25px !important;
+}
+.nav-link:hover,
+.nav-link.active{
+    border-color: #009ad8;
+    color: #009ad8 !important ;
+}
+.nav-item{
+    margin: 5px;
+}
+.home-sec{
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+    min-height: 350px;
+    padding: 70px  0 0 0;
+}
+.subscribe-footer-input,
+.find-input{
+    padding: 15px 100px 15px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border: none;
+}
+.subscribe-btn,
+.find-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 35px;
+}
+.find-btn {
+    padding: 10px 35px;
+}
+.weather-table{
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.table-header-md{
+    background-color: #242531;
+}
+.today-header{
+    border-radius: 10px 0 0 0;
+}
+.table-header-end{
+    border-radius: 0 10px 0 0;
+}
+.today-header,
+.table-header-end{
+    background-color: #2d303d;
+}
+.table-weather-md{
+   background-color: #262936;
+   height: 300px;
+}
+.today-weather{
+    border-radius: 0 0 0 10px ;
+}
+.table-weather-end{
+    border-radius: 0 0 10px 0 ;
+}
+.today-weather,
+.table-weather-end{
+    background-color: #323544;
+    height: 300px;
+}
+.weather-degree h1{
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+footer{
+    background: #262936;
+    padding: 50px 0; 
+}
+.social-ico-circle a {
+    width: 40px;
+    height: 40px;
+    background: #1e202b !important;
+    color: #009ad8;
+    transition: 0.3s ease;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+}
+.subscribe-btn {
+    padding: 10px 20px;
+}
+footer p{
+    color: #bfc1c8;
+    font-size: .9rem;
+}
